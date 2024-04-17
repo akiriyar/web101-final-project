@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset-webview.css" rel="stylesheet" type="text/css" />
+
+  <title> Screen Addiction </title>
+</head>
+
+<body>
+  <div class="dark-mode"></div>
+  <div>
+    <nav class="flexNav">
+      <li><a href="#title">Home</a></li>
+      <li><a href="#desTitle">About</a></li>
+      <li><a href="#factTitle">Facts</a></li>
+      <li><a href="#sourceTitle">Articles</a></li>
+      <li><button id="theme-button"> Dark Mode</button></li>
+    </nav>
+  </div>
+
+  <div id="title">
+    <h1>Pay Attention to Screen Addiction</h1>
+  </div>
+
+  <div id="desTitle" class="revealable">
+    <h3>What is screen addiction?</h3>
+  </div>
+
+  <div class="description revealable">
+    <p>Screen addiction is a mental health issue that affects people who spend <b>too much time</b> in front of screens.
+    </p>
+    <img id="headerImg"
+      src="https://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2018/01/12/1200/675/694940094001_5708912577001_5708893390001-vs.jpg?ve=1&tl=1">
+  </div>
+
+
+  <div class="factList revealable">
+    <h3 id=factTitle>Screen Addiction has negative effects on:</h3>
+    <ul>
+      <li>Relationships</li>
+      <li>School/Work</li>
+      <li>Physical and Mental Health</li>
+      <button> <a
+          href="https://www.premierhealth.com/your-health/articles/health-topics/screen-addiction-affects-physical-and-mental-health">
+          More </button>
+  </div>
+
+  <div class="helpfulSources revealable">
+    <h4 id=sourceTitle>Articles</h4>
+    <img id=wrappedHands
+      src="https://www.cbc-psychology.com/imager/mainassets/2509/technology-addiction-banner_f1bfa00d09032b36b4304bfb9079eb06.jpg">
+    <p>Here are some helpful articles to help you break free from the screen.</p>
+    <ul>
+      <li><a href="https://share.upmc.com/2022/06/unplugged-breaking-your-screen-addiction/"> A Guide to Breaking Your
+          Screen Addiction</a></li>
+      <li><a
+          href="https://www.premierhealth.com/your-health/articles/health-topics/screen-addiction-affects-physical-and-mental-health">
+          Screen Addiction Affects Physical and Mental Health </a></li>
+    </ul>
+  </div>
+
+  <!-- Petition -->
+  <div class="petition revealable" id="petition">
+    <h2>Sign Our Petition 📢</h2>
+
+    <div class="petition-container">
+      <div class="petition-para">
+        <p>We strive to help individuals struggling with screen addiction by offering support and resources. Our mission
+          is to provide a safe environment where people can embark on a journey towards recovery and regain control over
+          their digital habits. Through education and community engagement, we aim to empower individuals to break free
+          from the grips of screen addiction and live fulfilling, balanced lives</p>
+      </div>
+
+      <div class="signatures">
+        <p> 🖊️ Abby from Denver supports this.</p>
+        <p> 🖊️ Vincent from Phoenix supports this.</p>
+        <p> 🖊️ Mark from Dallas supports this.</p>
+      </div>
+
+    </div>
+
+    <!--- Sign Petition Form --->
+    <form id="sign-petition" title="sign-petition">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br>
+      <label for="hometown">Hometown:</label><br>
+      <input type="text" id="hometown" name="hometown"><br>
+      <label for="email">Email:</label><br>
+      <input type="text" id="email" name="email"><br>
+    </form>
+
+    <button id="sign-now-button">Sign Now</button>
+
+  </div>
+
+  <button>Learn More About Us</button>
+
+  <!-- Modal -->
+  <div id="thanks-modal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div id="modal-text-container">
+        <p id="thanks-modal-content">Placeholder text</p>
+        <img src=https://www.reedpublicrelations.com/wp-content/uploads/2019/11/Reed-blog-post-image.jpg.webp>
+      </div>
+      <!-- image here-->
+    </div>
+
+  </div>
+
+
+
+
+
+
+  <footer> </footer>
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
